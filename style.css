@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: white
+
+
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: black
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: violet; 
+    text-decoration: none;
+}
+.nav-links a:hover {
+    color: zain; 
+}
+
+/* Container Section */
+.container {
+    background-color: violet; 
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+/* Card Styles - Demonstrating Box Model */
+.card {
+    background-color: white; 
+    border: 3px solid zain;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box box-shadow: 3px 3px 8px black;
+}
+
+/* Headings */
+h1, h2, h3 {
+    margin: 10px 0;
+    color: zain;
+}
+
+/* Paragraph */
+p {
+    margin: 10px 0;
+    line-height: 1.5;
+    color: black; 
+}
+
+/* Button */
+button {
+    background-color: zain 
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border -radius: 5px;
+}
+
+button:hover {
+    background-color: violet
+}
+
+/* Footer */
+.footer {
+    background-color: #black; 
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
